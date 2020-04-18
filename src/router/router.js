@@ -10,8 +10,6 @@ Vue.use(Router)
 Vue.use(VueRouter)
 
 
-
-
 // 2.创建VueRounter 对象并导出
 export default [{
         //  配置路由和组件之间的关系()
@@ -32,8 +30,6 @@ export default [{
         path: '/about',
         name: 'about',
         component: about,
-
-
     }
 ]
 
